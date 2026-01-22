@@ -14,19 +14,16 @@ def main():
     # 1) Učitavanje CSV-a
     df = pd.read_csv(input_path)
 
-    print("✅ Učitano redaka:", len(df))
-    print("✅ Stupci:", list(df.columns))
+    print(" Učitano redaka:", len(df))
+    print(" Stupci:", list(df.columns))
 
     # 2) Osnovno čišćenje naziva stupaca (makni leading/trailing razmake)
     df.columns = [c.strip() for c in df.columns]
 
-    # Očekivani stupci u tvom datasetu:
-    # Name, Author, User Rating, Reviews, Price, Year, Genre
-
     # 3) Makni duplikate (isti Name + Author + Year)
     df_before = len(df)
     df = df.drop_duplicates(subset=["Name", "Author", "Year"])
-    print(f"🧹 Duplikati maknuti: {df_before - len(df)}")
+    print(f" Duplikati maknuti: {df_before - len(df)}")
 
     # 4) Pretvori tipove podataka u ispravne
     # (ako se negdje pojavi greška u podacima, pretvorit će u NaN)
@@ -35,24 +32,24 @@ def main():
     df["Price"] = pd.to_numeric(df["Price"], errors="coerce")
     df["Year"] = pd.to_numeric(df["Year"], errors="coerce").astype("Int64")
 
-    # 5) Normaliziraj tekst (lakše kasnije za API)
+    # 5) Normaliziraj tekst 
     df["Name"] = df["Name"].astype(str).str.strip()
     df["Author"] = df["Author"].astype(str).str.strip()
     df["Genre"] = df["Genre"].astype(str).str.strip()
 
-    # 6) Makni redove gdje fali ključna stvar (npr. Name ili Author)
+    # 6) Makni redove gdje fali ključna stvar 
     df = df.dropna(subset=["Name", "Author", "Year"])
 
-    # 7) Dodaj svoj ID (korisno za DB i API kasnije)
+    # 7) Dodaj svoj ID 
     df = df.reset_index(drop=True)
     df.insert(0, "id", df.index + 1)
 
     # 8) Spremi clean dataset
     df.to_csv(output_path, index=False)
-    print("✅ Clean dataset spremljen u:", output_path)
+    print(" Clean dataset spremljen u:", output_path)
 
-    # 9) Brzi pregled (top 5)
-    print("\n📌 Preview:")
+    # 9) Brzi pregled 
+    print("\n Preview:")
     print(df.head())
 
 

@@ -20,11 +20,11 @@ def home():
     })
 
 
-#  1) SVE KNJIGE (može i filter po godini ili žanru)
+#  1) SVE KNJIGE 
 @app.route("/books", methods=["GET"])
 def get_books():
-    year = request.args.get("year")      # npr. /books?year=2015
-    genre = request.args.get("genre")    # npr. /books?genre=Fiction
+    year = request.args.get("year")   
+    genre = request.args.get("genre")  
     limit = request.args.get("limit", default=50, type=int)
 
     query = "SELECT * FROM books WHERE 1=1"
