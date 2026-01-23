@@ -5,18 +5,13 @@ from sqlalchemy import create_engine
 
 def main():
     engine = create_engine("sqlite:///books.db")
-
-    # Učitaj podatke iz baze
     df = pd.read_sql("SELECT * FROM books", engine)
 
-    # Makni redove gdje nema Google ratinga
     df_valid = df.dropna(subset=["gb_avgRating"])
-
-    # Folder za slike
     out_dir = os.path.join("docs", "figures")
     os.makedirs(out_dir, exist_ok=True)
 
-    # 1) Price vs avgRating (scatter)
+    # 1) Price vs avgRating
     plt.figure()
     plt.scatter(df_valid["Price"], df_valid["gb_avgRating"])
     plt.xlabel("Price ($)")
@@ -25,7 +20,7 @@ def main():
     plt.savefig(os.path.join(out_dir, "price_vs_rating.png"))
     plt.close()
 
-    # 2) Price vs ratingsCount (scatter)
+    # 2) Price vs ratingsCount
     df_valid2 = df.dropna(subset=["gb_ratingsCount"])
     plt.figure()
     plt.scatter(df_valid2["Price"], df_valid2["gb_ratingsCount"])
@@ -35,7 +30,7 @@ def main():
     plt.savefig(os.path.join(out_dir, "price_vs_ratingscount.png"))
     plt.close()
 
-    # 3) Avg rating by Genre (bar)
+    # 3) Avg rating by Genre
     genre_stats = df_valid.groupby("Genre")["gb_avgRating"].mean().sort_values(ascending=False)
     plt.figure()
     genre_stats.plot(kind="bar")
@@ -46,7 +41,7 @@ def main():
     plt.savefig(os.path.join(out_dir, "avg_rating_by_genre.png"))
     plt.close()
 
-    # 4) Trend avg rating by Year (line)
+    # 4) Trend avg rating by Year
     year_stats = df_valid.groupby("Year")["gb_avgRating"].mean().sort_index()
     plt.figure()
     plt.plot(year_stats.index, year_stats.values)

@@ -3,9 +3,7 @@ from sqlalchemy import create_engine, text
 
 app = Flask(__name__)
 
-# konekcija na SQLite bazu
 engine = create_engine("sqlite:///books.db")
-
 
 @app.route("/")
 def home():
@@ -19,17 +17,13 @@ def home():
         ]
     })
 
-
-#  1) SVE KNJIGE 
 @app.route("/books", methods=["GET"])
 def get_books():
     year = request.args.get("year")   
     genre = request.args.get("genre")  
     limit = request.args.get("limit", default=50, type=int)
-
     query = "SELECT * FROM books WHERE 1=1"
     params = {}
-
     if year:
         query += " AND Year = :year"
         params["year"] = int(year)
@@ -44,25 +38,17 @@ def get_books():
     with engine.connect() as conn:
         result = conn.execute(text(query), params)
         rows = [dict(r._mapping) for r in result]
-
     return jsonify(rows)
 
-
-#  2) JEDNA KNJIGA PO ID
 @app.route("/books/<int:book_id>", methods=["GET"])
 def get_book(book_id):
     query = "SELECT * FROM books WHERE id = :id"
-
     with engine.connect() as conn:
         result = conn.execute(text(query), {"id": book_id}).fetchone()
-
     if result is None:
         return jsonify({"error": "Book not found"}), 404
-
     return jsonify(dict(result._mapping))
 
-
-#  3) ANALITIKA: cijena vs ocjena (Google rating)
 @app.route("/analytics/price-vs-rating", methods=["GET"])
 def price_vs_rating():
     query = """
