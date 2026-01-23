@@ -23,6 +23,7 @@ python src/test_db.py
 
 6) Pokreni REST API:
 python src/api.py
+API radi na: http://127.0.0.1:5000
 
 7) Generiraj grafove:
 python src/analytics_plots.py
