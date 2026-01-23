@@ -26,7 +26,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 25,And the Mountains Echoed,Khaled Hosseini,4.3,12159,13,2013,Fiction,Fiction,4.0,3.0,Penguin,2013-05-21,312.0,en
 26,Arguing with Idiots: How to Stop Small Minds and Big Government,Glenn Beck,4.6,798,5,2009,Non Fiction,Political Science,,,Threshold Editions,2010-09-14,0.0,en
 27,Astrophysics for People in a Hurry,Neil deGrasse Tyson,4.7,9374,9,2017,Non Fiction,Science,4.5,7.0,W. W. Norton & Company,2017-05-02,140.0,en
-28,"Autobiography of Mark Twain, Vol. 1",Mark Twain,4.2,491,14,2010,Non Fiction,Fiction,,,BoD - Books on Demand,2023-05-29,692.0,en
+28,"Autobiography of Mark Twain, Vol. 1",Mark Twain,4.2,491,14,2010,Non Fiction,Literary Criticism,3.0,1.0,Univ of California Press,2012-03-26,455.0,en
 29,Baby Touch and Feel: Animals,DK,4.6,5360,5,2015,Non Fiction,Juvenile Nonfiction,,,National Geographic Books,2008-01-21,0.0,en
 30,Balance (Angie's Extreme Stress Menders),Angie Grace,4.6,1909,11,2015,Non Fiction,Crafts & Hobbies,,,Createspace Independent Pub,2015-02-22,104.0,en
 31,Barefoot Contessa Foolproof: Recipes You Can Trust: A Cookbook,Ina Garten,4.8,1296,24,2012,Non Fiction,Cooking,5.0,2.0,Clarkson Potter,2012-10-30,274.0,en
@@ -107,7 +107,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 106,Fifty Shades Freed: Book Three of the Fifty Shades Trilogy (Fifty Shades of Grey Series) (English Edition),E L James,4.5,20262,11,2012,Fiction,,,,,,,
 107,Fifty Shades of Grey: Book One of the Fifty Shades Trilogy (Fifty Shades of Grey Series),E L James,3.8,47265,14,2012,Fiction,,,,,,,
 108,Fifty Shades of Grey: Book One of the Fifty Shades Trilogy (Fifty Shades of Grey Series),E L James,3.8,47265,14,2013,Fiction,,,,,,,
-109,Fifty Shades Trilogy (Fifty Shades of Grey / Fifty Shades Darker / Fifty Shades Freed),E L James,4.5,13964,32,2012,Fiction,Fiction,,,Random House Large Print,2012-06-26,0.0,en
+109,Fifty Shades Trilogy (Fifty Shades of Grey / Fifty Shades Darker / Fifty Shades Freed),E L James,4.5,13964,32,2012,Fiction,Fiction,4.0,74.0,Random House,2012-06-14,1230.0,en
 110,Fire and Fury: Inside the Trump White House,Michael Wolff,4.2,13677,6,2018,Non Fiction,Political Science,3.5,24.0,Henry Holt and Company,2018-01-05,217.0,en
 111,First 100 Words,Roger Priddy,4.7,17323,4,2014,Non Fiction,Juvenile Nonfiction,,,Macmillan,2005-08,16.0,en
 112,First 100 Words,Roger Priddy,4.7,17323,4,2015,Non Fiction,Juvenile Nonfiction,,,Macmillan,2005-08,16.0,en
@@ -142,9 +142,9 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 141,Good to Great: Why Some Companies Make the Leap and Others Don't,Jim Collins,4.5,3457,14,2010,Non Fiction,Business & Economics,4.0,4.0,Harper Collins,2001-10-16,320.0,en
 142,Good to Great: Why Some Companies Make the Leap and Others Don't,Jim Collins,4.5,3457,14,2011,Non Fiction,Business & Economics,4.0,4.0,Harper Collins,2001-10-16,320.0,en
 143,Good to Great: Why Some Companies Make the Leap and Others Don't,Jim Collins,4.5,3457,14,2012,Non Fiction,Business & Economics,4.0,4.0,Harper Collins,2001-10-16,320.0,en
-144,Goodnight Moon,Margaret Wise Brown,4.8,8837,5,2017,Fiction,Bedtime,,,,2010,0.0,en
-145,Goodnight Moon,Margaret Wise Brown,4.8,8837,5,2018,Fiction,Bedtime,,,,2010,0.0,en
-146,Goodnight Moon,Margaret Wise Brown,4.8,8837,5,2019,Fiction,Bedtime,,,,2010,0.0,en
+144,Goodnight Moon,Margaret Wise Brown,4.8,8837,5,2017,Fiction,Juvenile Fiction,4.0,1.0,HarperCollins,2016-11-08,34.0,en
+145,Goodnight Moon,Margaret Wise Brown,4.8,8837,5,2018,Fiction,Juvenile Fiction,4.0,1.0,HarperCollins,2016-11-08,34.0,en
+146,Goodnight Moon,Margaret Wise Brown,4.8,8837,5,2019,Fiction,Juvenile Fiction,4.0,1.0,HarperCollins,2016-11-08,34.0,en
 147,"Goodnight, Goodnight Construction Site (Hardcover Books for Toddlers, Preschool Books for Kids)",Sherri Duskey Rinker,4.9,7038,7,2012,Fiction,,,,,,,
 148,"Goodnight, Goodnight Construction Site (Hardcover Books for Toddlers, Preschool Books for Kids)",Sherri Duskey Rinker,4.9,7038,7,2013,Fiction,,,,,,,
 149,"Grain Brain: The Surprising Truth about Wheat, Carbs, and Sugar--Your Brain's Silent Killers",David Perlmutter MD,4.6,5972,10,2014,Non Fiction,,,,,,,
@@ -157,7 +157,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 156,"Harry Potter and the Goblet of Fire: The Illustrated Edition (Harry Potter, Book 4) (4)",J. K. Rowling,4.9,7758,18,2019,Fiction,,,,,,,
 157,"Harry Potter and the Prisoner of Azkaban: The Illustrated Edition (Harry Potter, Book 3)",J.K. Rowling,4.9,3146,30,2017,Fiction,,,,,,,
 158,"Harry Potter and the Sorcerer's Stone: The Illustrated Edition (Harry Potter, Book 1)",J.K. Rowling,4.9,10052,22,2016,Fiction,,,,,,,
-159,Harry Potter Coloring Book,Scholastic,4.7,3564,9,2015,Non Fiction,,2.0,3.0,Createspace Independent Publishing Platform,2017-07-05,250.0,en
+159,Harry Potter Coloring Book,Scholastic,4.7,3564,9,2015,Non Fiction,,,,Createspace Independent Publishing Platform,2017-07-05,250.0,en
 160,Harry Potter Paperback Box Set (Books 1-7),J. K. Rowling,4.8,13471,52,2016,Fiction,,,,,2023-05-02,0.0,en
 161,Have a Little Faith: A True Story,Mitch Albom,4.8,1930,4,2009,Non Fiction,Religion,,,Hachette UK,2011-06-14,209.0,en
 162,Heaven is for Real: A Little Boy's Astounding Story of His Trip to Heaven and Back,Todd Burpo,4.7,15779,10,2011,Non Fiction,Religion,4.0,766.0,Thomas Nelson,2011-10-31,206.0,en
@@ -173,7 +173,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 172,Howard Stern Comes Again,Howard Stern,4.3,5272,16,2019,Non Fiction,Biography & Autobiography,1.0,2.0,Simon and Schuster,2019-05-14,560.0,en
 173,Humans of New York,Brandon Stanton,4.8,3490,15,2013,Non Fiction,Photography,,,St. Martin's Press,2013-10-15,308.0,en
 174,Humans of New York,Brandon Stanton,4.8,3490,15,2014,Non Fiction,Photography,,,St. Martin's Press,2013-10-15,308.0,en
-175,Humans of New York : Stories,Brandon Stanton,4.9,2812,17,2015,Non Fiction,Photography,5.0,1.0,Pan Macmillan,2015-10-13,433.0,en
+175,Humans of New York : Stories,Brandon Stanton,4.9,2812,17,2015,Non Fiction,Photography,,,St. Martin's Press,2015-10-13,434.0,en
 176,"Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened",Allie Brosh,4.7,4896,17,2013,Non Fiction,Art,5.0,2.0,Simon and Schuster,2013-10-29,384.0,en
 177,"I Am Confident, Brave & Beautiful: A Coloring Book for Girls",Hopscotch Girls,4.8,9737,7,2019,Non Fiction,,,,,2020-12-29,52.0,en
 178,"I, Alex Cross",James Patterson,4.6,1320,7,2009,Fiction,Fiction,,,Vision,2010-10-01,400.0,en
@@ -196,7 +196,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 195,Joyland (Hard Case Crime),Stephen King,4.5,4748,12,2013,Fiction,,,,,,,
 196,Killers of the Flower Moon: The Osage Murders and the Birth of the FBI,David Grann,4.6,8393,17,2017,Non Fiction,True Crime,4.5,5.0,Vintage,2017-04-18,353.0,en
 197,Killing Jesus (Bill O'Reilly's Killing Series),Bill O'Reilly,4.5,11391,12,2013,Non Fiction,,,,,,,
-198,Killing Kennedy: The End of Camelot,Bill O'Reilly,4.6,8634,25,2012,Non Fiction,Political crimes and offenses,,,MacMillan,2012-10,325.0,en
+198,Killing Kennedy: The End of Camelot,Bill O'Reilly,4.6,8634,25,2012,Non Fiction,Biography & Autobiography,5.0,1.0,Pan Macmillan,2012-10-25,375.0,en
 199,Killing Lincoln: The Shocking Assassination that Changed America Forever (Bill O'Reilly's Killing Series),Bill O'Reilly,4.7,9342,10,2011,Non Fiction,,,,,,,
 200,Killing Lincoln: The Shocking Assassination that Changed America Forever (Bill O'Reilly's Killing Series),Bill O'Reilly,4.7,9342,10,2012,Non Fiction,,,,,,,
 201,Killing Patton: The Strange Death of World War II's Most Audacious General (Bill O'Reilly's Killing Series),Bill O'Reilly,4.6,10927,6,2014,Non Fiction,,,,,,,
@@ -227,7 +227,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 226,Magnolia Table: A Collection of Recipes for Gathering,Joanna Gaines,4.8,9867,16,2018,Non Fiction,Cooking,5.0,1.0,HarperCollins,2018-04-24,537.0,en
 227,Make It Ahead: A Barefoot Contessa Cookbook,Ina Garten,4.5,1386,20,2014,Non Fiction,Cooking,,,Clarkson Potter,2014-10-28,274.0,en
 228,Make Your Bed: Little Things That Can Change Your Life...And Maybe the World,Admiral William H. McRaven,4.7,10199,11,2017,Non Fiction,Business & Economics,,,Summareads Media LLC,2020-01-30,52.0,en
-229,"Mastering the Art of French Cooking, Vol. 2",Julia Child,4.8,2926,27,2009,Non Fiction,Cooking,5.0,6.0,Knopf,2011-10-05,858.0,en
+229,"Mastering the Art of French Cooking, Vol. 2",Julia Child,4.8,2926,27,2009,Non Fiction,"Cookery, French",,,,1961,740.0,en
 230,Milk and Honey,Rupi Kaur,4.7,17739,8,2016,Non Fiction,"Body, Mind & Spirit",5.0,1.0,,2018-08-28,226.0,en
 231,Milk and Honey,Rupi Kaur,4.7,17739,8,2017,Non Fiction,"Body, Mind & Spirit",5.0,1.0,,2018-08-28,226.0,en
 232,Milk and Honey,Rupi Kaur,4.7,17739,8,2018,Non Fiction,"Body, Mind & Spirit",5.0,1.0,,2018-08-28,226.0,en
@@ -351,7 +351,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 350,The Book with No Pictures,B. J. Novak,4.8,8081,8,2014,Fiction,Books and reading,,,,2019,,en
 351,The Book with No Pictures,B. J. Novak,4.8,8081,8,2015,Fiction,Books and reading,,,,2019,,en
 352,The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics,Daniel James Brown,4.8,23358,12,2014,Non Fiction,Sports & Recreation,4.0,7.0,Penguin,2013-06-04,418.0,en
-353,The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics,Daniel James Brown,4.8,23358,12,2015,Non Fiction,,,,,,,
+353,The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics,Daniel James Brown,4.8,23358,12,2015,Non Fiction,Sports & Recreation,4.0,7.0,Penguin,2013-06-04,418.0,en
 354,The Casual Vacancy,J.K. Rowling,3.3,9372,12,2012,Fiction,Fiction,3.0,308.0,Hachette UK,2012-09-27,609.0,en
 355,The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet…,Thomas Campbell,4.7,4633,21,2011,Non Fiction,,,,,,,
 356,The Complete Ketogenic Diet for Beginners: Your Essential Guide to Living the Keto Lifestyle,Amy Ramos,4.3,13061,6,2018,Non Fiction,Cooking,,,"Sourcebooks, Inc.",2016-12-20,299.0,en
@@ -372,18 +372,18 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 371,The Five Dysfunctions of a Team: A Leadership Fable,Patrick Lencioni,4.6,3207,6,2011,Non Fiction,Business & Economics,,,John Wiley & Sons,2002-04-11,268.0,en
 372,The Five Dysfunctions of a Team: A Leadership Fable,Patrick Lencioni,4.6,3207,6,2012,Non Fiction,Business & Economics,,,John Wiley & Sons,2002-04-11,268.0,en
 373,The Five Dysfunctions of a Team: A Leadership Fable,Patrick Lencioni,4.6,3207,6,2013,Non Fiction,Business & Economics,,,John Wiley & Sons,2002-04-11,268.0,en
-374,The Five Love Languages: How to Express Heartfelt Commitment to Your Mate,Gary Chapman,4.6,803,9,2009,Non Fiction,Family & Relationships,4.5,70.0,Moody Publishers,2009-12-17,209.0,en
+374,The Five Love Languages: How to Express Heartfelt Commitment to Your Mate,Gary Chapman,4.6,803,9,2009,Non Fiction,Family & Relationships,4.0,13.0,Christian Large Print,2005,274.0,en
 375,The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book),Don Miguel Ruiz,4.7,23308,6,2013,Non Fiction,Conduct of life,,,,2018,,en
 376,The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book),Don Miguel Ruiz,4.7,23308,6,2015,Non Fiction,Conduct of life,,,,2018,,en
 377,The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book),Don Miguel Ruiz,4.7,23308,6,2016,Non Fiction,Conduct of life,,,,2018,,en
 378,The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book),Don Miguel Ruiz,4.7,23308,6,2017,Non Fiction,Conduct of life,,,,2018,,en
 379,The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book),Don Miguel Ruiz,4.7,23308,6,2018,Non Fiction,Conduct of life,,,,2018,,en
 380,The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book),Don Miguel Ruiz,4.7,23308,6,2019,Non Fiction,Conduct of life,,,,2018,,en
-381,The Getaway,Jeff Kinney,4.8,5836,0,2017,Fiction,Juvenile Fiction,4.5,43.0,Abrams,2017-11-07,228.0,en
+381,The Getaway,Jeff Kinney,4.8,5836,0,2017,Fiction,Juvenile Fiction,4.5,19.0,Penguin UK,2017-11-07,251.0,en
 382,The Girl on the Train,Paula Hawkins,4.1,79446,18,2015,Fiction,Alcoholics,,,Seal Books,2016-08-23,416.0,en
 383,The Girl on the Train,Paula Hawkins,4.1,79446,7,2016,Fiction,Alcoholics,,,Seal Books,2016-08-23,416.0,en
-384,The Girl Who Kicked the Hornet's Nest (Millennium Trilogy),Stieg Larsson,4.7,7747,14,2010,Fiction,Juvenile Fiction,,,Mizan - Qanita,2014-10-01,860.0,id
-385,The Girl Who Kicked the Hornet's Nest (Millennium Trilogy),Stieg Larsson,4.7,7747,14,2011,Fiction,Juvenile Fiction,,,Mizan - Qanita,2014-10-01,860.0,id
+384,The Girl Who Kicked the Hornet's Nest (Millennium Trilogy),Stieg Larsson,4.7,7747,14,2010,Fiction,,,,,,,
+385,The Girl Who Kicked the Hornet's Nest (Millennium Trilogy),Stieg Larsson,4.7,7747,14,2011,Fiction,,,,,,,
 386,The Girl Who Played with Fire (Millennium Series),Stieg Larsson,4.7,7251,9,2010,Fiction,,,,,,,
 387,The Girl Who Played with Fire (Millennium),Stieg Larsson,4.7,7251,16,2009,Fiction,Comics & Graphic Novels,,,Titan Comics,2018-01-30,0.0,en
 388,The Girl with the Dragon Tattoo (Millennium Series),Stieg Larsson,4.4,10559,2,2009,Fiction,Fiction,4.0,363.0,Vintage Crime/Black Lizard,2008-09-16,480.0,en
@@ -400,9 +400,9 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 399,The Handmaid's Tale,Margaret Atwood,4.3,29442,7,2017,Fiction,,,,,,4.0,en
 400,The Harbinger: The Ancient Mystery that Holds the Secret of America's Future,Jonathan Cahn,4.6,11098,13,2012,Fiction,Fiction,,,Frontline,2011-09-03,287.0,en
 401,The Hate U Give,Angie Thomas,4.8,9947,11,2018,Fiction,Young Adult Fiction,,,Thorndike Striving Reader,2021-12-29,589.0,en
-402,The Help,Kathryn Stockett,4.8,13871,6,2009,Fiction,Fiction,5.0,3.0,Penguin,2009-02-10,466.0,en
-403,The Help,Kathryn Stockett,4.8,13871,6,2010,Fiction,Fiction,5.0,3.0,Penguin,2009-02-10,466.0,en
-404,The Help,Kathryn Stockett,4.8,13871,8,2011,Fiction,Fiction,5.0,3.0,Penguin,2009-02-10,466.0,en
+402,The Help,Kathryn Stockett,4.8,13871,6,2009,Fiction,Fiction,4.5,41.0,Penguin UK,2011-09-29,497.0,en
+403,The Help,Kathryn Stockett,4.8,13871,6,2010,Fiction,Fiction,4.5,41.0,Penguin UK,2011-09-29,497.0,en
+404,The Help,Kathryn Stockett,4.8,13871,8,2011,Fiction,Fiction,4.5,41.0,Penguin UK,2011-09-29,497.0,en
 405,"The House of Hades (Heroes of Olympus, Book 4)",Rick Riordan,4.8,6982,14,2013,Fiction,Juvenile Fiction,4.0,16.0,Penguin UK,2013-10-08,520.0,en
 406,The Hunger Games,Suzanne Collins,4.7,32122,14,2010,Fiction,Young Adult Fiction,4.0,5739.0,Scholastic Inc.,2009-09-01,387.0,en
 407,The Hunger Games (Book 1),Suzanne Collins,4.7,32122,8,2011,Fiction,Juvenile Fiction,,,Gyldendal A/S,2025-08-01,333.0,da
@@ -473,7 +473,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 472,The Twilight Saga Collection,Stephenie Meyer,4.7,3801,82,2009,Fiction,Juvenile Fiction,4.0,182.0,"Little, Brown Books for Young Readers",2009-10-27,2275.0,en
 473,"The Ugly Truth (Diary of a Wimpy Kid, Book 5)",Jeff Kinney,4.8,3796,12,2010,Fiction,Juvenile Fiction,,,Amulet Books,2010-11,224.0,en
 474,The Unofficial Harry Potter Cookbook: From Cauldron Cakes to Knickerbocker Glory--More Than 150 Magical Recipes for…,Dinah Bucholz,4.7,9030,10,2019,Non Fiction,,,,,,,
-475,The Very Hungry Caterpillar,Eric Carle,4.9,19546,5,2013,Fiction,Juvenile Nonfiction,,,Puffin,2005-01-01,21.0,en
+475,The Very Hungry Caterpillar,Eric Carle,4.9,19546,5,2013,Fiction,,,,,,,
 476,The Very Hungry Caterpillar,Eric Carle,4.9,19546,5,2014,Fiction,Juvenile Nonfiction,,,Puffin,2005-01-01,21.0,en
 477,The Very Hungry Caterpillar,Eric Carle,4.9,19546,5,2015,Fiction,Juvenile Nonfiction,,,Puffin,2005-01-01,21.0,en
 478,The Very Hungry Caterpillar,Eric Carle,4.9,19546,5,2016,Fiction,Juvenile Nonfiction,,,Puffin,2005-01-01,21.0,en
@@ -534,7 +534,7 @@ id,Name,Author,User Rating,Reviews,Price,Year,Genre,gb_categories,gb_avgRating,g
 533,Where the Wild Things Are,Maurice Sendak,4.8,9967,13,2009,Fiction,Juvenile Fiction,,,HarperCollins Publishers,1963,48.0,en
 534,Whose Boat Is This Boat?: Comments That Don't Help in the Aftermath of a Hurricane,The Staff of The Late Show with,4.6,6669,12,2018,Non Fiction,,,,,,,
 535,Wild: From Lost to Found on the Pacific Crest Trail,Cheryl Strayed,4.4,17044,18,2012,Non Fiction,Biography & Autobiography,3.5,76.0,Vintage,2012-03-20,337.0,en
-536,Winter of the World: Book Two of the Century Trilogy,Ken Follett,4.5,10760,15,2012,Fiction,Fiction,5.0,1.0,Pan Macmillan,2012-09-13,1048.0,en
+536,Winter of the World: Book Two of the Century Trilogy,Ken Follett,4.5,10760,15,2012,Fiction,,,,,,,
 537,Women Food and God: An Unexpected Path to Almost Everything,Geneen Roth,4.2,1302,11,2010,Non Fiction,"Body, Mind & Spirit",,,Simon and Schuster,2011-09-29,176.0,en
 538,Wonder,R. J. Palacio,4.8,21625,9,2013,Fiction,Juvenile Fiction,5.0,1.0,Alfred Knopf,2017,0.0,en
 539,Wonder,R. J. Palacio,4.8,21625,9,2014,Fiction,Juvenile Fiction,5.0,1.0,Alfred Knopf,2017,0.0,en

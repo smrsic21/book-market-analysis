@@ -6,7 +6,6 @@ from sqlalchemy import create_engine
 def main():
     engine = create_engine("sqlite:///books.db")
     df = pd.read_sql("SELECT * FROM books", engine)
-
     df_valid = df.dropna(subset=["gb_avgRating"])
     out_dir = os.path.join("docs", "figures")
     os.makedirs(out_dir, exist_ok=True)

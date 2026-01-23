@@ -3,21 +3,15 @@ import time
 import requests
 import pandas as pd
 
-
 def fetch_google_books_data(title: str, author: str):
-    """
-    Dohvati podatke s Google Books API-ja za zadani naslov i autora.
-    Vraća dict s poljima koje želimo ili None vrijednosti ako nema rezultata.
-    """
+
     query = f'intitle:"{title}" inauthor:"{author}"'
     url = "https://www.googleapis.com/books/v1/volumes"
     params = {"q": query, "maxResults": 1}
-
     try:
         r = requests.get(url, params=params, timeout=10)
         r.raise_for_status()
         data = r.json()
-
         if "items" not in data or len(data["items"]) == 0:
             return {
                 "gb_categories": None,
@@ -30,11 +24,9 @@ def fetch_google_books_data(title: str, author: str):
             }
 
         volume = data["items"][0].get("volumeInfo", {})
-
         categories = volume.get("categories")
         if isinstance(categories, list):
             categories = ", ".join(categories)
-
         return {
             "gb_categories": categories,
             "gb_avgRating": volume.get("averageRating"),
@@ -57,27 +49,20 @@ def fetch_google_books_data(title: str, author: str):
             "gb_language": None,
         }
 
-
 def main():
     input_path = os.path.join("data", "processed", "amazon_top50_clean.csv")
     output_path = os.path.join("data", "processed", "books_enriched.csv")
-
     df = pd.read_csv(input_path)
-
     enriched_rows = []
-
     print(" Krećem dohvat s Google Books API-ja...")
     for i, row in df.iterrows():
         title = row["Name"]
         author = row["Author"]
-
         gb_data = fetch_google_books_data(title, author)
-
         combined = row.to_dict()
         combined.update(gb_data)
         enriched_rows.append(combined)
 
-        # mali delay da ne spamamo API
         if (i + 1) % 20 == 0:
             print(f" Odrađeno {i+1}/{len(df)} knjiga...")
         time.sleep(0.2)
@@ -87,7 +72,6 @@ def main():
 
     print(" Gotovo! Enriched dataset spremljen u:", output_path)
     print(enriched_df.head())
-
 
 if __name__ == "__main__":
     main()

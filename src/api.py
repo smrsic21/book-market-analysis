@@ -1,8 +1,6 @@
 ﻿from flask import Flask, jsonify, request
 from sqlalchemy import create_engine, text
-
 app = Flask(__name__)
-
 engine = create_engine("sqlite:///books.db")
 
 @app.route("/")
@@ -27,14 +25,11 @@ def get_books():
     if year:
         query += " AND Year = :year"
         params["year"] = int(year)
-
     if genre:
         query += " AND Genre = :genre"
         params["genre"] = genre
-
     query += " LIMIT :limit"
     params["limit"] = limit
-
     with engine.connect() as conn:
         result = conn.execute(text(query), params)
         rows = [dict(r._mapping) for r in result]
@@ -63,8 +58,6 @@ def price_vs_rating():
 
     return jsonify(rows)
 
-
-#  4) ANALITIKA: prosječna ocjena po žanru
 @app.route("/analytics/genre-stats", methods=["GET"])
 def genre_stats():
     query = """
@@ -75,13 +68,10 @@ def genre_stats():
     FROM books
     GROUP BY Genre
     """
-
     with engine.connect() as conn:
         result = conn.execute(text(query))
         rows = [dict(r._mapping) for r in result]
-
     return jsonify(rows)
-
 
 if __name__ == "__main__":
     app.run(debug=True)
